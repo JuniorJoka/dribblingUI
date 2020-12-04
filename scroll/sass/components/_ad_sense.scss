@@ -1,0 +1,44 @@
+.ad-sense {
+  background-color: white;
+  height: 100%;
+  border-top-right-radius: 1em;
+  color: $main-bg-dark;
+  font-family: serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 12px;
+
+  h1 {
+    font-weight: bold;
+    font-size: 3em;
+
+    span {
+      display: block;
+    }
+  }
+
+  p {
+    margin-top: 2em;
+    font-size: 1.5em;
+    font-family: $info-font;
+    font-weight: 400;
+    color: gray;
+    width: 19em;
+
+    a {
+      background-color: $main-accent-blue;
+      padding: 0.5em;
+      border-radius: 2em;
+      font-weight: bold;
+      color: $main-bg-dark;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 1em;
+      margin-top: 2em;
+    }
+  }
+}
