@@ -2,7 +2,7 @@
   background-color: white;
   height: 100%;
   border-top-right-radius: 1em;
-  color: $main-bg-dark;
+  color: $primary-dark;
   font-family: serif;
   display: flex;
   flex-direction: column;
@@ -28,11 +28,11 @@
     width: 19em;
 
     a {
-      background-color: $main-accent-blue;
+      background-color: $accent-blue;
       padding: 0.5em;
       border-radius: 2em;
       font-weight: bold;
-      color: $main-bg-dark;
+      color: $primary-dark;
       font-family: Georgia, "Times New Roman", Times, serif;
       display: flex;
       justify-content: center;
