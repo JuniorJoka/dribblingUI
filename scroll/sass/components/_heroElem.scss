@@ -1,0 +1,58 @@
+.fixture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+
+  .main {
+    width: 25em;
+    height: 25em;
+    background-color: white;
+    position: relative;
+    border-radius: 2em;
+    color: $main-bg-dark;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: $main-accent-blue;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      transform: rotate(-15deg);
+      border-radius: inherit;
+      animation: rotate 1s ease-in-out infinite;
+    }
+
+    h2 {
+      margin-top: 1em;
+    }
+
+    .news {
+      svg {
+        width: 16em;
+        height: 4em;
+        margin-top: 1em;
+      }
+    }
+    .first {
+      transform: translate3d(0, 5em, 0);
+    }
+    .second {
+      transform: translate3d(0, 3em, 0);
+      opacity: 0;
+    }
+    .third {
+      transform: translate3d(0, 3em, 0);
+      opacity: 0;
+    }
+    .fourth {
+      transform: scaleX(0.5) translateX(8em);
+    }
+  }
+}
