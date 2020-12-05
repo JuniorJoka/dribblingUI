@@ -309,4 +309,84 @@ nav p::before {
 .etc {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
+.fixture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+}
+
+.fixture .main {
+  width: 25em;
+  height: 25em;
+  background-color: white;
+  position: relative;
+  border-radius: 2em;
+  color: #2f2f2f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fixture .main::before {
+  content: "";
+  position: absolute;
+  background-color: #32e2d1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  border-radius: inherit;
+  -webkit-animation: rotate 1s ease-in-out infinite;
+          animation: rotate 1s ease-in-out infinite;
+}
+
+.fixture .main h2 {
+  margin-top: 1em;
+}
+
+.fixture .main .news svg {
+  width: 16em;
+  height: 4em;
+  margin-top: 1em;
+}
+
+.fixture .main .first {
+  -webkit-transform: translate3d(0, 5em, 0);
+          transform: translate3d(0, 5em, 0);
+}
+
+.fixture .main .second {
+  -webkit-transform: translate3d(0, 3em, 0);
+          transform: translate3d(0, 3em, 0);
+  opacity: 0;
+}
+
+.fixture .main .third {
+  -webkit-transform: translate3d(0, 3em, 0);
+          transform: translate3d(0, 3em, 0);
+  opacity: 0;
+}
+
+.fixture .main .fourth {
+  -webkit-transform: scaleX(0.5) translateX(8em);
+          transform: scaleX(0.5) translateX(8em);
+}
 /*# sourceMappingURL=style.css.map */
