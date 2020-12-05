@@ -243,4 +243,70 @@ nav p::before {
   font-size: 1em;
   margin-top: 2em;
 }
+
+.companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5em;
+  background-color: #fde154;
+  color: #2f2f2f;
+  font-weight: bold;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 10em;
+}
+
+.companies .atlantic {
+  font-family: "Vladimir Script";
+}
+
+.companies .usa-today {
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.companies .usa-today::before {
+  content: "";
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #2f2f2f;
+  left: -1.1em;
+}
+
+.companies .msnbc {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.companies .buzzfeed span {
+  font-size: x-small;
+}
+
+.companies .vox {
+  font-family: "Brush Script MT";
+  font-size: larger;
+}
+
+.companies .gizmodo {
+  font-family: "Arial Narrow";
+}
+
+.companies .verge {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.companies .slate {
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.ad-free,
+.etc {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 /*# sourceMappingURL=style.css.map */
