@@ -1,8 +1,8 @@
 .companies {
   display: flex;
   height: 5em;
-  background-color: $main-accent-yellow;
-  color: $main-bg-dark;
+  background-color: $accent-yellow;
+  color: $primary-dark;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@
       height: 1em;
       position: absolute;
       border-radius: 50%;
-      background-color: $main-bg-dark;
+      background-color: $primary-dark;
       left: -1.1em;
     }
   }
