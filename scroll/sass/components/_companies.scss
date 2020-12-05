@@ -1,0 +1,61 @@
+.companies {
+  display: flex;
+  height: 5em;
+  background-color: $main-accent-yellow;
+  color: $main-bg-dark;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 10em;
+
+  .atlantic {
+    font-family: "Vladimir Script";
+  }
+
+  .usa-today {
+    position: relative;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+    &::before {
+      content: "";
+      width: 1em;
+      height: 1em;
+      position: absolute;
+      border-radius: 50%;
+      background-color: $main-bg-dark;
+      left: -1.1em;
+    }
+  }
+
+  .msnbc {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .buzzfeed {
+    span {
+      font-size: x-small;
+    }
+  }
+
+  .vox {
+    font-family: "Brush Script MT";
+    font-size: larger;
+  }
+
+  .gizmodo {
+    font-family: "Arial Narrow";
+  }
+
+  .verge {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .slate {
+    font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+}
+
+.ad-free,
+.etc {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
