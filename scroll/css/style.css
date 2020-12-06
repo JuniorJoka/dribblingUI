@@ -441,4 +441,78 @@ nav p::before {
   width: 60%;
   background-image: url(/assets/ad6.svg);
 }
+
+.subscribe {
+  background-color: #2f2f2f;
+  height: 50vh;
+  background-image: linear-gradient(45deg, transparent 15%, rgba(255, 255, 255, 0.05) 0, rgba(255, 255, 255, 0.05) 35.6%, transparent 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.subscribe .sub {
+  color: #d9d9d9;
+  width: 28em;
+  padding: 5em;
+  line-height: 1.2;
+  margin-left: 2em;
+  margin-bottom: 5em;
+}
+
+.subscribe .sub .ad {
+  width: 17em;
+  background-color: #32e2d1;
+  padding: 0.5em;
+  border-radius: 2em;
+  font-weight: bold;
+  color: #2f2f2f;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 3em;
+}
+
+.subscribe .enthus {
+  width: 30em;
+  background-color: #fde154;
+  height: 8em;
+  font-weight: bold;
+  font-size: 1.4em;
+  line-height: 1.2;
+  border-radius: 1em 0em 0em 1em;
+  position: relative;
+}
+
+.subscribe .enthus::before {
+  content: "";
+  top: -2em;
+  right: 8em;
+  width: 4em;
+  height: 4em;
+  background-color: white;
+  position: absolute;
+  border-radius: 0.5em;
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
+}
+
+.subscribe .enthus h2 {
+  width: 11em;
+  -webkit-transform: translate(3.2em, 1.5em);
+          transform: translate(3.2em, 1.5em);
+  position: absolute;
+}
 /*# sourceMappingURL=style.css.map */
