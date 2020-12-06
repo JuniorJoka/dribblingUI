@@ -1,0 +1,66 @@
+.subscribe {
+  background-color: $main-bg-dark;
+  height: 50vh;
+  background-image: linear-gradient(
+    45deg,
+    transparent 15%,
+    hsla(0, 0%, 100%, 0.05) 0,
+    hsla(0, 0%, 100%, 0.05) 35.6%,
+    transparent 0
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .sub {
+    color: $main-bg-light;
+    width: 28em;
+    padding: 5em;
+    line-height: 1.2;
+    margin-left: 2em;
+    margin-bottom: 5em;
+    .ad {
+      width: 17em;
+      background-color: $main-accent-blue;
+      padding: 0.5em;
+      border-radius: 2em;
+      font-weight: bold;
+      color: $main-bg-dark;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 1em;
+      margin-top: 3em;
+    }
+  }
+  .enthus {
+    width: 30em;
+    background-color: $main-accent-yellow;
+    // padding: 2em 15em 2em 5em;
+    height: 8em;
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 1.2;
+    border-radius: 1em 0em 0em 1em;
+    position: relative;
+
+    &::before {
+      content: "";
+      top: -2em;
+      right: 8em;
+      width: 4em;
+      height: 4em;
+      background-color: white;
+      position: absolute;
+      border-radius: 0.5em;
+      transform: rotate(-25deg);
+    }
+
+    h2 {
+      width: 11em;
+      transform: translate(3.2em, 1.5em);
+      position: absolute;
+    }
+  }
+}
