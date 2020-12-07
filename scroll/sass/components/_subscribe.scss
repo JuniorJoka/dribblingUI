@@ -10,12 +10,11 @@
   );
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
   .sub {
     color: $primary-light;
-    width: 28em;
-    padding: 5em;
+    width: 17em;
     line-height: 1.2;
     margin-left: 2em;
     margin-bottom: 5em;
@@ -37,13 +36,13 @@
   .enthus {
     width: 30em;
     background-color: $accent-yellow;
-    // padding: 2em 15em 2em 5em;
     height: 8em;
     font-weight: bold;
     font-size: 1.4em;
     line-height: 1.2;
     border-radius: 1em 0em 0em 1em;
     position: relative;
+    transform: translateX(6.04em);
 
     &::before {
       content: "";
