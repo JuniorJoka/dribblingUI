@@ -12,7 +12,7 @@
   );
 
   .really {
-    background-color: $main-bg-dark;
+    background-color: $primary-dark;
     width: 17em;
     font-weight: bold;
     height: 10em;
@@ -31,7 +31,7 @@
       right: -1em;
       width: 3em;
       height: 3em;
-      background-color: $main-accent-blue;
+      background-color: $accent-blue;
       position: absolute;
       border-radius: 0.3em;
       transform: rotate(20deg);
@@ -47,7 +47,7 @@
     }
 
     .caption {
-      color: $main-accent-yellow;
+      color: $accent-yellow;
     }
   }
   .right {
