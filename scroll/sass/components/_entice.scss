@@ -1,0 +1,71 @@
+.entice {
+  height: 50vh;
+  background-color: white;
+  font-family: $header-font-1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(
+    45deg,
+    rgba(158, 158, 158, 0.1) 15%,
+    transparent 0
+  );
+
+  .really {
+    background-color: $main-bg-dark;
+    width: 17em;
+    font-weight: bold;
+    height: 10em;
+    color: white;
+    font-size: 1.4em;
+    display: grid;
+    place-items: center;
+    padding: 1em 3em;
+    border-radius: 1em;
+    position: relative;
+    // margin-left: 5em;
+
+    &::before {
+      content: "";
+      top: -1em;
+      right: -1em;
+      width: 3em;
+      height: 3em;
+      background-color: $main-accent-blue;
+      position: absolute;
+      border-radius: 0.3em;
+      transform: rotate(20deg);
+    }
+    &::after {
+      content: "";
+      bottom: -1em;
+      left: 2em;
+      width: 1em;
+      height: 1em;
+      background: linear-gradient(-45deg, transparent 50%, $main-bg-dark 0);
+      position: absolute;
+    }
+
+    .caption {
+      color: $main-accent-yellow;
+    }
+  }
+  .right {
+    width: 25em;
+    // margin-right: 10em;
+
+    h2 {
+      font-size: 1.4em;
+      font-weight: bold;
+      padding-bottom: 1em;
+      width: 15em;
+      line-height: 1.2;
+    }
+
+    p {
+      font-family: $info-font;
+      line-height: 1.4;
+      color: gray;
+    }
+  }
+}
