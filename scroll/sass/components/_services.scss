@@ -1,0 +1,39 @@
+.services {
+  height: 90vh;
+  background-color: white;
+  background-image: linear-gradient(
+    135deg,
+    rgba(158, 158, 158, 0.1) 12.8%,
+    transparent 0 86.8%,
+    rgba(158, 158, 158, 0.1) 0
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  div {
+    width: 15em;
+
+    .pixar {
+      width: 4em;
+      height: 4em;
+      background-color: $main-accent-yellow;
+      border-radius: 0.4em;
+      margin-bottom: 1em;
+    }
+
+    .head {
+      font-weight: bold;
+      font-family: $header-font-1;
+      font-size: 1.7em;
+      line-height: 1.2;
+      display: inline;
+    }
+
+    .info {
+      margin-top: 1em;
+      line-height: 1.2;
+      height: 12em;
+    }
+  }
+}
