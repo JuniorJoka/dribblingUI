@@ -4,24 +4,24 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  background-color: $main-bg-dark;
-  color: $main-bg-light;
+  background-color: $primary-dark;
+  color: $primary-light;
   font-weight: bold;
   font-size: 1.3em;
 
   span {
-    color: $main-accent-yellow;
+    color: $accent-yellow;
   }
   .sub {
     margin-left: 3em;
   }
   .ad {
-    background-color: $main-accent-blue;
+    background-color: $accent-blue;
     width: 10em;
     padding: 0.5em;
     border-radius: 2em;
     font-weight: bold;
-    color: $main-bg-dark;
+    color: $primary-dark;
     font-family: Georgia, "Times New Roman", Times, serif;
     display: flex;
     justify-content: center;
