@@ -633,4 +633,47 @@ nav p::before {
   line-height: 1.2;
   height: 12em;
 }
+
+.draw {
+  height: 15vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  background-color: #2f2f2f;
+  color: #d9d9d9;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.draw span {
+  color: #fde154;
+}
+
+.draw .sub {
+  margin-left: 3em;
+}
+
+.draw .ad {
+  background-color: #32e2d1;
+  width: 10em;
+  padding: 0.5em;
+  border-radius: 2em;
+  font-weight: bold;
+  color: #2f2f2f;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: -1em;
+}
 /*# sourceMappingURL=style.css.map */
