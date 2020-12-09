@@ -3,24 +3,4 @@ nav {
   display: flex;
   align-items: center;
   padding-left: 10em;
-
-  p {
-    font-family: $info-font;
-    font-weight: bold;
-    font-size: 1.3em;
-    position: relative;
-
-    &::before {
-      content: "";
-      width: 1em;
-      height: 1em;
-      background-color: $accent-yellow;
-      background: url(/assets/logo.svg);
-      background-repeat: no-repeat;
-      background-position: 0% 50%;
-      position: absolute;
-      left: -1.4em;
-      border-radius: 0.2em;
-    }
-  }
 }
