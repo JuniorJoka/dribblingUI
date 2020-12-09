@@ -1,0 +1,15 @@
+footer {
+  height: 15vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    margin-left: 9em;
+  }
+
+  .copyright {
+    margin-right: 10em;
+  }
+}
