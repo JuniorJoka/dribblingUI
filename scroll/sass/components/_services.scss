@@ -17,7 +17,6 @@
     .pixar {
       width: 4em;
       height: 4em;
-      background-color: $accent-yellow;
       border-radius: 0.4em;
       margin-bottom: 1em;
     }
@@ -37,23 +36,17 @@
     }
 
     .globe {
-      background-image: url("/assets/globe.svg");
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
+      background: url("/assets/globe.svg") no-repeat $accent-yellow 50% 50%;
       background-size: 3em;
     }
 
     .hear {
-      background-image: url("/assets/headphones.svg");
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
+      background: url("/assets/headphones.svg") no-repeat $accent-yellow 50% 50%;
       background-size: 3em;
     }
 
     .connect {
-      background-image: url("/assets/device.svg");
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
+      background: url("/assets/device.svg") no-repeat $accent-yellow 50% 50%;
       background-size: 3em;
     }
   }

@@ -603,7 +603,6 @@ nav {
 .services div .pixar {
   width: 4em;
   height: 4em;
-  background-color: #fde154;
   border-radius: 0.4em;
   margin-bottom: 1em;
 }
@@ -623,23 +622,17 @@ nav {
 }
 
 .services div .globe {
-  background-image: url("/assets/globe.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background: url("/assets/globe.svg") no-repeat #fde154 50% 50%;
   background-size: 3em;
 }
 
 .services div .hear {
-  background-image: url("/assets/headphones.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background: url("/assets/headphones.svg") no-repeat #fde154 50% 50%;
   background-size: 3em;
 }
 
 .services div .connect {
-  background-image: url("/assets/device.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background: url("/assets/device.svg") no-repeat #fde154 50% 50%;
   background-size: 3em;
 }
 
