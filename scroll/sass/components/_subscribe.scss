@@ -54,6 +54,10 @@
       position: absolute;
       border-radius: 0.5em;
       transform: rotate(-25deg);
+      background-image: url("/assets/gift-box.svg");
+      background-size: 3em;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
     }
 
     h2 {

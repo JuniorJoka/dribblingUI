@@ -488,6 +488,10 @@ nav {
   border-radius: 0.5em;
   -webkit-transform: rotate(-25deg);
           transform: rotate(-25deg);
+  background-image: url("/assets/gift-box.svg");
+  background-size: 3em;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .subscribe .enthus h2 {
