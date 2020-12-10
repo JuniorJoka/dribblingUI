@@ -50,14 +50,11 @@
       right: 8em;
       width: 4em;
       height: 4em;
-      background-color: white;
       position: absolute;
       border-radius: 0.5em;
       transform: rotate(-25deg);
-      background-image: url("/assets/gift-box.svg");
+      background: url("/assets/gift-box.svg") no-repeat white 50% 50%;
       background-size: 3em;
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
     }
 
     h2 {
