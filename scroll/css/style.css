@@ -535,15 +535,12 @@ nav {
   right: -1em;
   width: 3em;
   height: 3em;
-  background-color: #32e2d1;
   position: absolute;
   border-radius: 0.3em;
   -webkit-transform: rotate(20deg);
           transform: rotate(20deg);
-  background-image: url("/assets/party-popper.svg");
-  background-repeat: no-repeat;
+  background: url("/assets/party-popper.svg") no-repeat #32e2d1 50% 50%;
   background-size: 2em;
-  background-position: 50% 50%;
 }
 
 .entice .really::after {

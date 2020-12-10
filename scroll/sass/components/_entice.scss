@@ -31,15 +31,13 @@
       right: -1em;
       width: 3em;
       height: 3em;
-      background-color: $accent-blue;
       position: absolute;
       border-radius: 0.3em;
       transform: rotate(20deg);
-      background-image: url("/assets/party-popper.svg");
-      background-repeat: no-repeat;
+      background: url("/assets/party-popper.svg") no-repeat $accent-blue 50% 50%;
       background-size: 2em;
-      background-position: 50% 50%;
     }
+
     &::after {
       content: "";
       bottom: -1em;
