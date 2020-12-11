@@ -39,19 +39,5 @@
         margin-top: 1em;
       }
     }
-    .first {
-      transform: translate3d(0, 5em, 0);
-    }
-    .second {
-      transform: translate3d(0, 3em, 0);
-      opacity: 0;
-    }
-    .third {
-      transform: translate3d(0, 3em, 0);
-      opacity: 0;
-    }
-    .fourth {
-      transform: scaleX(0.5) translateX(8em);
-    }
   }
 }

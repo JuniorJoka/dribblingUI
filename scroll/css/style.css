@@ -348,28 +348,6 @@ nav {
   margin-top: 1em;
 }
 
-.fixture .main .first {
-  -webkit-transform: translate3d(0, 5em, 0);
-          transform: translate3d(0, 5em, 0);
-}
-
-.fixture .main .second {
-  -webkit-transform: translate3d(0, 3em, 0);
-          transform: translate3d(0, 3em, 0);
-  opacity: 0;
-}
-
-.fixture .main .third {
-  -webkit-transform: translate3d(0, 3em, 0);
-          transform: translate3d(0, 3em, 0);
-  opacity: 0;
-}
-
-.fixture .main .fourth {
-  -webkit-transform: scaleX(0.5) translateX(8em);
-          transform: scaleX(0.5) translateX(8em);
-}
-
 .ad {
   position: absolute;
   background-repeat: no-repeat;
