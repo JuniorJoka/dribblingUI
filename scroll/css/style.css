@@ -334,8 +334,6 @@ nav {
   -webkit-transform: rotate(-15deg);
           transform: rotate(-15deg);
   border-radius: inherit;
-  -webkit-animation: rotate 1s ease-in-out infinite;
-          animation: rotate 1s ease-in-out infinite;
 }
 
 .fixture .main h2 {
