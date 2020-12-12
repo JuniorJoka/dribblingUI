@@ -1,9 +1,11 @@
 @import "base/reset";
-@import "helpers/variables";
 @import "base/typography";
+@import "helpers/variables";
+@import "helpers/animations";
 @import "layout/header";
 @import "layout/nav";
 @import "layout/hero";
+@import "layout/footer";
 @import "components/ad_sense";
 @import "components/companies";
 @import "components/heroElem";
@@ -12,5 +14,4 @@
 @import "components/entice";
 @import "components/services";
 @import "components/befooter";
-@import "layout/footer";
 @import "components/logo";
