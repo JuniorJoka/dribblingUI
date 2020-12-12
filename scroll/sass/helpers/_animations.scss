@@ -1,0 +1,68 @@
+@keyframes moveRight {
+  10%,
+  90% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveLeft {
+  10%,
+  90% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveUp {
+  10%,
+  90% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveDown {
+  10%,
+  90% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes elongate {
+  10%,
+  90% {
+    transform: scaleX(0.5) translateX(8em);
+  }
+}
+
+@keyframes showUp {
+  10%,
+  90% {
+    transform: translate3d(0, 3em, 0);
+    opacity: 0;
+  }
+}
+
+@keyframes showDown {
+  10%,
+  90% {
+    transform: translate3d(0, 6em, 0);
+    opacity: 0;
+  }
+}
+
+@keyframes showShow {
+  10%,
+  90% {
+    transform: translate3d(0, 5em, 0);
+  }
+}
+
+@keyframes rotar {
+  10%,
+  90% {
+    transform: rotate(15deg);
+  }
+}
