@@ -5,7 +5,7 @@
         "../sass/style.scss",
         "../sass/base/_reset.scss",
         "../sass/helpers/_variables.scss",
-        "../sass/helpers/_typography.scss",
+        "../sass/base/_typography.scss",
         "../sass/layout/_header.scss",
         "../sass/layout/_nav.scss",
         "../sass/layout/_hero.scss",
