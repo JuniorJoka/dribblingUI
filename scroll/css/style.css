@@ -864,4 +864,49 @@ footer .copyright {
   left: -1.4em;
   border-radius: 0.2em;
 }
+
+.moveRight {
+  -webkit-animation: moveRight 3s;
+          animation: moveRight 3s;
+}
+
+.moveLeft {
+  -webkit-animation: moveLeft 3s;
+          animation: moveLeft 3s;
+}
+
+.moveUp {
+  -webkit-animation: moveUp 3s;
+          animation: moveUp 3s;
+}
+
+.moveDown {
+  -webkit-animation: moveUp 3s;
+          animation: moveUp 3s;
+}
+
+.elongate {
+  -webkit-animation: elongate 3s;
+          animation: elongate 3s;
+}
+
+.showUp {
+  -webkit-animation: showUp 3s;
+          animation: showUp 3s;
+}
+
+.showDown {
+  -webkit-animation: showDown 3s;
+          animation: showDown 3s;
+}
+
+.rotar {
+  -webkit-animation: rotar 3s;
+          animation: rotar 3s;
+}
+
+.showShow {
+  -webkit-animation: showShow 3s;
+          animation: showShow 3s;
+}
 /*# sourceMappingURL=style.css.map */
