@@ -6,11 +6,16 @@ class Anime {
   ) {}
 
   anime(): void {
-    let element: Element | null = document.querySelector(`.${this.selector}`);
+    const element: Element | null = document.querySelector(`.${this.selector}`);
     if (element) {
       element.addEventListener("animationend", () => {
-        element.classList.remove(this.animation);
-        setTimeout(() => element.classList.add(this.animation), this.duration);
+        if (element) {
+          element.classList.remove(this.animation);
+          setTimeout(
+            () => element.classList.add(this.animation),
+            this.duration
+          );
+        }
       });
     }
   }
