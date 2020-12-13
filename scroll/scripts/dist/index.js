@@ -19,3 +19,4 @@ var Anime = /** @class */ (function () {
     };
     return Anime;
 }());
+console.log("working");
