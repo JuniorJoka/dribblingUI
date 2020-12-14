@@ -303,13 +303,13 @@ header {
 }
 
 nav {
-  height: 6em;
+  height: 3em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 10em;
+  padding-left: 4em;
 }
 /*# sourceMappingURL=style.css.map */
