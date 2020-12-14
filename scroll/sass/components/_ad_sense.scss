@@ -1,18 +1,15 @@
 .ad-sense {
   background-color: white;
-  height: 100%;
-  border-top-right-radius: 1em;
+  height: 20em;
   color: $primary-dark;
   font-family: serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-basis: 12px;
+  display: grid;
+  place-items: center;
+  padding: 0 2em;
 
   h1 {
     font-weight: bold;
-    font-size: 3em;
+    font-size: 1.7em;
 
     span {
       display: block;
@@ -21,7 +18,7 @@
 
   p {
     margin-top: 2em;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: $info-font;
     font-weight: 400;
     color: gray;
