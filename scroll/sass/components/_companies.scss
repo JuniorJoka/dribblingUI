@@ -4,9 +4,7 @@
   background-color: $accent-yellow;
   color: $primary-dark;
   font-weight: bold;
-  display: flex;
   align-items: center;
-  justify-content: space-around;
   overflow: scroll;
   &::-webkit-scrollbar {
     display: none;
