@@ -1,13 +1,21 @@
 .companies {
   display: flex;
-  height: 5em;
+  height: 3em;
   background-color: $accent-yellow;
   color: $primary-dark;
   font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 0 10em;
+  overflow: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .comp {
+    display: flex;
+    justify-content: center;
+    min-width: 8em;
+  }
 
   .atlantic {
     font-family: "Vladimir Script";
@@ -24,7 +32,7 @@
       position: absolute;
       border-radius: 50%;
       background-color: $primary-dark;
-      left: -1.1em;
+      left: -0em;
     }
   }
 
