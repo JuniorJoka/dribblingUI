@@ -368,4 +368,8 @@ nav {
   font-size: 1em;
   margin-top: 2em;
 }
+
+.fixture {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
