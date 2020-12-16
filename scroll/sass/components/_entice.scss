@@ -2,9 +2,13 @@
   height: 50vh;
   background-color: white;
   font-family: $header-font-1;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "upper"
+    "bottom";
+  place-items: center;
+  padding: 0 2em;
   background: linear-gradient(
     45deg,
     rgba(158, 158, 158, 0.1) 15%,
@@ -13,9 +17,7 @@
 
   .really {
     background-color: $primary-dark;
-    width: 17em;
     font-weight: bold;
-    height: 10em;
     color: white;
     font-size: 1.4em;
     display: grid;
@@ -23,7 +25,7 @@
     padding: 1em 3em;
     border-radius: 1em;
     position: relative;
-    // margin-left: 5em;
+    grid-area: bottom;
 
     &::before {
       content: "";
@@ -53,14 +55,13 @@
     }
   }
   .right {
-    width: 25em;
-    // margin-right: 10em;
+    grid-area: upper;
+    margin: 2em 0 0;
 
     h2 {
       font-size: 1.4em;
       font-weight: bold;
       padding-bottom: 1em;
-      width: 15em;
       line-height: 1.2;
     }
 
