@@ -1,5 +1,5 @@
 .entice {
-  height: 50vh;
+  height: 30em;
   background-color: white;
   font-family: $header-font-1;
   display: grid;
@@ -19,10 +19,10 @@
     background-color: $primary-dark;
     font-weight: bold;
     color: white;
-    font-size: 1.4em;
+    font-size: 1.2em;
     display: grid;
     place-items: center;
-    padding: 1em 3em;
+    padding: 1em 2em;
     border-radius: 1em;
     position: relative;
     grid-area: bottom;
@@ -59,7 +59,7 @@
     margin: 2em 0 0;
 
     h2 {
-      font-size: 1.4em;
+      font-size: 1.3em;
       font-weight: bold;
       padding-bottom: 1em;
       line-height: 1.2;
@@ -67,7 +67,7 @@
 
     p {
       font-family: $info-font;
-      line-height: 1.4;
+      line-height: 1.2;
       color: gray;
     }
   }
