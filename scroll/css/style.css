@@ -450,6 +450,61 @@ nav {
   display: none;
 }
 
+.subscribe {
+  background-color: #2f2f2f;
+  height: 25em;
+  background-image: linear-gradient(45deg, transparent 25%, rgba(255, 255, 255, 0.05) 0, rgba(255, 255, 255, 0.05) 83.5%, transparent 0);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.subscribe .sub {
+  color: #d9d9d9;
+  line-height: 1.2;
+}
+
+.subscribe .sub .ad {
+  background-color: #32e2d1;
+  padding: 0.5em;
+  border-radius: 2em;
+  font-weight: bold;
+  color: #2f2f2f;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 3em;
+}
+
+.subscribe .enthus {
+  background-color: #fde154;
+  font-weight: bold;
+  font-size: 1.4em;
+  line-height: 1.2;
+  border-radius: 1em 0em 0em 1em;
+  position: relative;
+}
+
+.subscribe .enthus::before {
+  content: "";
+  top: -2em;
+  right: 2em;
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  border-radius: 0.5em;
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
+  background: url("/assets/gift-box.svg") no-repeat white 50% 50%;
+  background-size: 2em;
+}
+
 .entice {
   height: 30em;
   background-color: white;
