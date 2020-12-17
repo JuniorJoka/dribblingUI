@@ -1,25 +1,21 @@
 .subscribe {
   background-color: $primary-dark;
-  height: 50vh;
+  height: 25em;
   background-image: linear-gradient(
     45deg,
-    transparent 15%,
+    transparent 25%,
     hsla(0, 0%, 100%, 0.05) 0,
-    hsla(0, 0%, 100%, 0.05) 35.6%,
+    hsla(0, 0%, 100%, 0.05) 83.5%,
     transparent 0
   );
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  display: grid;
+  place-items: center;
 
   .sub {
     color: $primary-light;
-    width: 17em;
     line-height: 1.2;
-    margin-left: 2em;
-    margin-bottom: 5em;
+
     .ad {
-      width: 17em;
       background-color: $accent-blue;
       padding: 0.5em;
       border-radius: 2em;
@@ -34,33 +30,24 @@
     }
   }
   .enthus {
-    width: 30em;
     background-color: $accent-yellow;
-    height: 8em;
     font-weight: bold;
     font-size: 1.4em;
     line-height: 1.2;
     border-radius: 1em 0em 0em 1em;
     position: relative;
-    transform: translateX(6.04em);
 
     &::before {
       content: "";
       top: -2em;
-      right: 8em;
-      width: 4em;
-      height: 4em;
+      right: 2em;
+      width: 3em;
+      height: 3em;
       position: absolute;
       border-radius: 0.5em;
       transform: rotate(-25deg);
       background: url("/assets/gift-box.svg") no-repeat white 50% 50%;
-      background-size: 3em;
-    }
-
-    h2 {
-      width: 11em;
-      transform: translate(3.2em, 1.5em);
-      position: absolute;
+      background-size: 2em;
     }
   }
 }
