@@ -34,10 +34,12 @@
   .enthus {
     background-color: $accent-yellow;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.2em;
     line-height: 1.2;
     border-radius: 1em 0em 0em 1em;
     position: relative;
+    padding: 1.5em;
+    margin-left: 2em;
 
     &::before {
       content: "";
