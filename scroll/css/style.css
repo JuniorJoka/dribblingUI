@@ -586,4 +586,59 @@ nav {
   line-height: 1.2;
   color: gray;
 }
+
+.services {
+  height: 90vh;
+  background-color: white;
+  background-image: linear-gradient(135deg, rgba(158, 158, 158, 0.1) 12.8%, transparent 0 86.8%, rgba(158, 158, 158, 0.1) 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.services div {
+  width: 15em;
+}
+
+.services div .pixar {
+  width: 4em;
+  height: 4em;
+  border-radius: 0.4em;
+  margin-bottom: 1em;
+}
+
+.services div .head {
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.7em;
+  line-height: 1.2;
+  display: inline;
+}
+
+.services div .info {
+  margin-top: 1em;
+  line-height: 1.2;
+  height: 12em;
+}
+
+.services div .globe {
+  background: url("/assets/globe.svg") no-repeat #fde154 50% 50%;
+  background-size: 3em;
+}
+
+.services div .hear {
+  background: url("/assets/headphones.svg") no-repeat #fde154 50% 50%;
+  background-size: 3em;
+}
+
+.services div .connect {
+  background: url("/assets/device.svg") no-repeat #fde154 50% 50%;
+  background-size: 3em;
+}
 /*# sourceMappingURL=style.css.map */
