@@ -607,15 +607,14 @@ nav {
 .services div .head {
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.7em;
+  font-size: 1.5em;
   line-height: 1.2;
-  display: inline;
 }
 
 .services div .info {
   margin-top: 1em;
   line-height: 1.2;
-  height: 12em;
+  font-size: 1.1em;
 }
 
 .services div .globe {
