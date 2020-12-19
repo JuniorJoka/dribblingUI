@@ -588,7 +588,7 @@ nav {
 }
 
 .services {
-  height: 90vh;
+  height: 65em;
   background-color: white;
   background-image: linear-gradient(135deg, rgba(158, 158, 158, 0.1) 12.8%, transparent 0 86.8%, rgba(158, 158, 158, 0.1) 0);
   display: -ms-grid;
