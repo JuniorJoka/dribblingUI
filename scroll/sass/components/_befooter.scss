@@ -1,32 +1,29 @@
-.draw {
-  height: 15vh;
+`.befooter {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-items: center;
+  place-items: center;
+  padding: 1em 2em;
+  height: 8em;
   background-color: $primary-dark;
   color: $primary-light;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1em;
 
   span {
     color: $accent-yellow;
   }
-  .sub {
-    margin-left: 3em;
-  }
-  .ad {
-    background-color: $accent-blue;
-    width: 10em;
+  a {
+    background-color: $main-accent-blue;
     padding: 0.5em;
     border-radius: 2em;
     font-weight: bold;
-    color: $primary-dark;
+    color: $main-bg-dark;
     font-family: Georgia, "Times New Roman", Times, serif;
     display: flex;
+    align-items: center;
     justify-content: center;
     text-decoration: none;
     font-size: 1em;
-    margin-top: -1em;
+    margin-top: 1em;
+    width: 17em;
   }
 }
