@@ -631,4 +631,42 @@ nav {
   background: url("/assets/device.svg") no-repeat #fde154 50% 50%;
   background-size: 3em;
 }
+
+.befooter {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  padding: 1em 2em;
+  height: 8em;
+  background-color: #2f2f2f;
+  color: #d9d9d9;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.befooter span {
+  color: #fde154;
+}
+
+.befooter a {
+  background-color: #32e2d1;
+  padding: 0.5em;
+  border-radius: 2em;
+  font-weight: bold;
+  color: #2f2f2f;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 1em;
+  width: 17em;
+}
 /*# sourceMappingURL=style.css.map */

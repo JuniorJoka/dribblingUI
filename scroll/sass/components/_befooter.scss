@@ -1,4 +1,4 @@
-`.befooter {
+.befooter {
   display: grid;
   place-items: center;
   padding: 1em 2em;
@@ -12,11 +12,11 @@
     color: $accent-yellow;
   }
   a {
-    background-color: $main-accent-blue;
+    background-color: $accent-blue;
     padding: 0.5em;
     border-radius: 2em;
     font-weight: bold;
-    color: $main-bg-dark;
+    color: $primary-dark;
     font-family: Georgia, "Times New Roman", Times, serif;
     display: flex;
     align-items: center;
