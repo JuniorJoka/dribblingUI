@@ -302,6 +302,15 @@ nav {
   padding-left: 4em;
 }
 
+@media (min-width: 730px) {
+  .hero {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 footer {
   height: 3em;
   background-color: white;
