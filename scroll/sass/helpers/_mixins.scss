@@ -1,0 +1,11 @@
+@mixin mq-medium {
+  @media (min-width: $medium-screen) {
+    @content;
+  }
+}
+
+@mixin mq-large {
+  @media (min-width: $large-screen) {
+    @content;
+  }
+}
