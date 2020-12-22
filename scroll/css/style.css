@@ -364,6 +364,12 @@ footer .copyright {
   padding: 0 2em;
 }
 
+@media (min-width: 730px) {
+  .ad-sense {
+    border-top-right-radius: 1em;
+  }
+}
+
 .ad-sense h1 {
   font-weight: bold;
   font-size: 1.7em;
