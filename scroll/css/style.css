@@ -291,6 +291,12 @@ header {
   color: #d9d9d9;
 }
 
+@media (min-width: 730px) {
+  header {
+    background-image: repeating-linear-gradient(-40deg, transparent, transparent 30em, rgba(255, 255, 255, 0.05) 0, rgba(255, 255, 255, 0.05) 60em);
+  }
+}
+
 nav {
   height: 3em;
   display: -webkit-box;
