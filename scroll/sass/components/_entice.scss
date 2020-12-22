@@ -15,6 +15,13 @@
     transparent 0
   );
 
+  @include mq-medium {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "bottom upper";
+    grid-column-gap: 3em;
+    height: 20em;
+  }
+
   .really {
     background-color: $primary-dark;
     font-weight: bold;

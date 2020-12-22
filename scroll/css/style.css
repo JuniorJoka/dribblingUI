@@ -560,6 +560,16 @@ footer .copyright {
   background: linear-gradient(45deg, rgba(158, 158, 158, 0.1) 15%, transparent 0);
 }
 
+@media (min-width: 730px) {
+  .entice {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "bottom upper";
+    grid-column-gap: 3em;
+    height: 20em;
+  }
+}
+
 .entice .really {
   background-color: #2f2f2f;
   font-weight: bold;
