@@ -6,7 +6,11 @@
   background-color: $primary-dark;
   color: $primary-light;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.1em;
+
+  @include mq-medium {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   span {
     color: $accent-yellow;
