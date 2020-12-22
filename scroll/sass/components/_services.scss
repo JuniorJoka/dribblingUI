@@ -11,7 +11,17 @@
   place-items: center;
   padding: 0 2em;
 
+  @include mq-medium {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+    height: 25em;
+  }
+
   div {
+    @include mq-medium {
+      height: 20em;
+    }
+
     .pixar {
       width: 4em;
       height: 4em;
