@@ -11,9 +11,17 @@
     border-top-right-radius: 1em;
   }
 
+  @include mq-large {
+    height: 100%;
+  }
+
   h1 {
     font-weight: bold;
     font-size: 1.7em;
+
+    @include mq-large {
+      font-size: 3em;
+    }
 
     span {
       display: block;
@@ -27,6 +35,10 @@
     font-weight: 400;
     color: rgb(83, 83, 83);
     width: 19em;
+
+    @include mq-large {
+      font-size: 1.4em;
+    }
 
     a {
       background-color: $accent-blue;

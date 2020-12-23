@@ -376,9 +376,21 @@ footer .copyright {
   }
 }
 
+@media (min-width: 930px) {
+  .ad-sense {
+    height: 100%;
+  }
+}
+
 .ad-sense h1 {
   font-weight: bold;
   font-size: 1.7em;
+}
+
+@media (min-width: 930px) {
+  .ad-sense h1 {
+    font-size: 3em;
+  }
 }
 
 .ad-sense h1 span {
@@ -392,6 +404,12 @@ footer .copyright {
   font-weight: 400;
   color: #535353;
   width: 19em;
+}
+
+@media (min-width: 930px) {
+  .ad-sense p {
+    font-size: 1.4em;
+  }
 }
 
 .ad-sense p a {
