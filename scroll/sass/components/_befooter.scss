@@ -12,6 +12,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  @include mq-large {
+    height: 5em;
+  }
+
   span {
     color: $accent-yellow;
   }
@@ -30,5 +34,17 @@
     margin-top: 1em;
     width: 17em;
     margin-left: -1em;
+
+    @include mq-large {
+      justify-self: end;
+      margin-right: 3em;
+    }
+  }
+
+  .attract {
+    @include mq-large {
+      justify-self: start;
+      margin-left: 3em;
+    }
   }
 }

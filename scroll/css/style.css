@@ -845,6 +845,12 @@ footer .copyright {
   }
 }
 
+@media (min-width: 930px) {
+  .befooter {
+    height: 5em;
+  }
+}
+
 .befooter span {
   color: #fde154;
 }
@@ -870,6 +876,22 @@ footer .copyright {
   margin-top: 1em;
   width: 17em;
   margin-left: -1em;
+}
+
+@media (min-width: 930px) {
+  .befooter a {
+    -ms-grid-column-align: end;
+        justify-self: end;
+    margin-right: 3em;
+  }
+}
+
+@media (min-width: 930px) {
+  .befooter .attract {
+    -ms-grid-column-align: start;
+        justify-self: start;
+    margin-left: 3em;
+  }
 }
 
 .moveRight {
