@@ -9,6 +9,11 @@
   &::-webkit-scrollbar {
     display: none;
   }
+
+  @include mq-large {
+    height: 10vh;
+  }
+
   .comp {
     display: flex;
     justify-content: center;

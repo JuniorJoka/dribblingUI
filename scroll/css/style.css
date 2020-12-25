@@ -466,6 +466,12 @@ footer .copyright {
   display: none;
 }
 
+@media (min-width: 930px) {
+  .companies {
+    height: 10vh;
+  }
+}
+
 .companies .comp {
   display: -webkit-box;
   display: -ms-flexbox;
