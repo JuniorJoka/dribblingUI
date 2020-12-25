@@ -349,12 +349,30 @@ footer {
           align-items: center;
 }
 
+@media (min-width: 930px) {
+  footer {
+    height: 10vh;
+  }
+}
+
 footer .logo {
   margin-left: 4em;
 }
 
+@media (min-width: 930px) {
+  footer .logo {
+    margin-left: 6em;
+  }
+}
+
 footer .copyright {
   margin-right: 3em;
+}
+
+@media (min-width: 930px) {
+  footer .copyright {
+    margin-right: 6em;
+  }
 }
 
 .logo {

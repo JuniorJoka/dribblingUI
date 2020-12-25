@@ -5,11 +5,23 @@ footer {
   justify-content: space-between;
   align-items: center;
 
+  @include mq-large {
+    height: 10vh;
+  }
+
   .logo {
     margin-left: 4em;
+
+    @include mq-large {
+      margin-left: 6em;
+    }
   }
 
   .copyright {
     margin-right: 3em;
+
+    @include mq-large {
+      margin-right: 6em;
+    }
   }
 }
