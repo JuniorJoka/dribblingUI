@@ -33,7 +33,7 @@
 @keyframes elongate {
   10%,
   90% {
-    transform: scaleX(0.5) translateX(8em);
+    transform: scaleX(0.5) translateX(5em);
   }
 }
 
@@ -56,7 +56,7 @@
 @keyframes showShow {
   10%,
   90% {
-    transform: translate3d(0, 5em, 0);
+    transform: translate3d(0, 4em, 0);
   }
 }
 

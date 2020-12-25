@@ -204,16 +204,16 @@ table {
 @-webkit-keyframes elongate {
   10%,
   90% {
-    -webkit-transform: scaleX(0.5) translateX(8em);
-            transform: scaleX(0.5) translateX(8em);
+    -webkit-transform: scaleX(0.5) translateX(5em);
+            transform: scaleX(0.5) translateX(5em);
   }
 }
 
 @keyframes elongate {
   10%,
   90% {
-    -webkit-transform: scaleX(0.5) translateX(8em);
-            transform: scaleX(0.5) translateX(8em);
+    -webkit-transform: scaleX(0.5) translateX(5em);
+            transform: scaleX(0.5) translateX(5em);
   }
 }
 
@@ -256,16 +256,16 @@ table {
 @-webkit-keyframes showShow {
   10%,
   90% {
-    -webkit-transform: translate3d(0, 5em, 0);
-            transform: translate3d(0, 5em, 0);
+    -webkit-transform: translate3d(0, 4em, 0);
+            transform: translate3d(0, 4em, 0);
   }
 }
 
 @keyframes showShow {
   10%,
   90% {
-    -webkit-transform: translate3d(0, 5em, 0);
-            transform: translate3d(0, 5em, 0);
+    -webkit-transform: translate3d(0, 4em, 0);
+            transform: translate3d(0, 4em, 0);
   }
 }
 
