@@ -802,6 +802,12 @@ footer .copyright {
   }
 }
 
+@media (min-width: 930px) {
+  .services div {
+    width: 15em;
+  }
+}
+
 .services div .pixar {
   width: 4em;
   height: 4em;
