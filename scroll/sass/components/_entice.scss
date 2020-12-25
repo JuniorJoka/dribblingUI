@@ -3,7 +3,7 @@
   background-color: white;
   font-family: $header-font-1;
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "upper"
     "bottom";
@@ -48,11 +48,14 @@
       right: -1em;
       width: 3em;
       height: 3em;
+      background-color: $accent-blue;
       position: absolute;
       border-radius: 0.3em;
       transform: rotate(20deg);
-      background: url("/assets/party-popper.svg") no-repeat $accent-blue 50% 50%;
+      background-image: url("/assets/party-popper.svg");
+      background-repeat: no-repeat;
       background-size: 2em;
+      background-position: 50% 50%;
     }
 
     &::after {
@@ -76,8 +79,8 @@
     h2 {
       font-size: 1.3em;
       font-weight: bold;
-      padding-bottom: 1em;
       line-height: 1.2;
+      margin-bottom: 1em;
     }
 
     p {
