@@ -317,6 +317,12 @@ nav {
   }
 }
 
+@media (min-width: 930px) {
+  .hero {
+    height: 80vh;
+  }
+}
+
 footer {
   height: 3em;
   background-color: white;

@@ -3,4 +3,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  @include mq-large {
+    height: 80vh;
+  }
 }
