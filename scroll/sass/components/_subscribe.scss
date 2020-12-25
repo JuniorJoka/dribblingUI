@@ -2,7 +2,7 @@
   background-color: $primary-dark;
   height: 25em;
   background-image: linear-gradient(
-    45deg,
+    -45deg,
     transparent 25%,
     hsla(0, 0%, 100%, 0.05) 0,
     hsla(0, 0%, 100%, 0.05) 83.5%,
@@ -29,14 +29,16 @@
   .sub {
     color: $primary-light;
     line-height: 1.2;
-    margin: 2em;
     font-size: 1.1em;
+    margin: 2em;
+    margin-top: 0;
 
     @include mq-large {
       width: 17em;
     }
 
-    .ad {
+    a {
+      width: 17em;
       background-color: $accent-blue;
       padding: 0.5em;
       border-radius: 2em;
@@ -47,9 +49,10 @@
       justify-content: center;
       text-decoration: none;
       font-size: 1em;
-      margin-top: 3em;
+      margin-top: 1em;
     }
   }
+
   .enthus {
     background-color: $accent-yellow;
     font-weight: bold;
@@ -59,6 +62,7 @@
     position: relative;
     padding: 1.5em;
     margin-left: 2em;
+    margin-top: 1em;
 
     @include mq-large {
       padding: 2em;
@@ -70,11 +74,14 @@
       right: 2em;
       width: 3em;
       height: 3em;
+      background-color: white;
       position: absolute;
       border-radius: 0.5em;
       transform: rotate(-25deg);
-      background: url("/assets/gift-box.svg") no-repeat white 50% 50%;
+      background-image: url("/assets/gift-box.svg");
+      background-repeat: no-repeat;
       background-size: 2em;
+      background-position: 50% 50%;
     }
   }
 }
