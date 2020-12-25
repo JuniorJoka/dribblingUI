@@ -19,6 +19,7 @@
   span {
     color: $accent-yellow;
   }
+
   a {
     background-color: $accent-blue;
     padding: 0.5em;
@@ -32,15 +33,14 @@
     text-decoration: none;
     font-size: 1em;
     margin-top: 1em;
+    margin-left: -2em;
     width: 17em;
-    margin-left: -1em;
 
     @include mq-large {
       justify-self: end;
       margin-right: 3em;
     }
   }
-
   .attract {
     @include mq-large {
       justify-self: start;
