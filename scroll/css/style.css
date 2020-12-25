@@ -507,18 +507,88 @@ footer .copyright {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+.fixture {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+}
+
 @media (min-width: 730px) {
   .fixture {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 930px) {
-  .fixture {
-    height: 80vh;
+.fixture .main {
+  background-color: white;
+  position: relative;
+  border-radius: 1em;
+  color: #2f2f2f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 730px) {
+  .fixture .main {
+    width: 15em;
+    height: 15em;
+  }
+}
+
+@media (min-width: 730px) and (min-width: 930px) {
+  .fixture .main {
+    width: 25em;
+    height: 25em;
+  }
+}
+
+.fixture .main::after {
+  content: "";
+  position: absolute;
+  background-color: #32e2d1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  border-radius: inherit;
+}
+
+.fixture .main h2 {
+  margin-top: 0.5em;
+}
+
+.fixture .main .news svg {
+  margin-top: 1em;
+}
+
+@media (min-width: 730px) {
+  .fixture .main .news svg {
+    width: 10em;
+    height: 2em;
+  }
+}
+
+@media (min-width: 730px) and (min-width: 930px) {
+  .fixture .main .news svg {
+    width: 16em;
+    height: 4em;
   }
 }
 

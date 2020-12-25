@@ -1,9 +1,58 @@
 .fixture {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
   @include mq-medium {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
   }
-  @include mq-large {
-    height: 80vh;
+
+  .main {
+    background-color: white;
+    position: relative;
+    border-radius: 1em;
+    color: $primary-dark;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include mq-medium {
+      width: 15em;
+      height: 15em;
+      @include mq-large {
+        width: 25em;
+        height: 25em;
+      }
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-color: $accent-blue;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      transform: rotate(-15deg);
+      border-radius: inherit;
+    }
+
+    h2 {
+      margin-top: 0.5em;
+    }
+
+    .news {
+      svg {
+        margin-top: 1em;
+        @include mq-medium {
+          width: 10em;
+          height: 2em;
+          @include mq-large {
+            width: 16em;
+            height: 4em;
+          }
+        }
+      }
+    }
   }
 }
