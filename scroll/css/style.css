@@ -807,6 +807,12 @@ footer .copyright {
   }
 }
 
+@media (min-width: 930px) {
+  .entice {
+    height: 15em;
+  }
+}
+
 .entice .really {
   background-color: #2f2f2f;
   font-weight: bold;
@@ -821,6 +827,12 @@ footer .copyright {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: bottom;
+}
+
+@media (min-width: 930px) {
+  .entice .really {
+    width: 17em;
+  }
 }
 
 .entice .really::before {

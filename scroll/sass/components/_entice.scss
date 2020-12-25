@@ -22,6 +22,10 @@
     height: 20em;
   }
 
+  @include mq-large {
+    height: 15em;
+  }
+
   .really {
     background-color: $primary-dark;
     font-weight: bold;
@@ -33,6 +37,10 @@
     border-radius: 1em;
     position: relative;
     grid-area: bottom;
+
+    @include mq-large {
+      width: 17em;
+    }
 
     &::before {
       content: "";
