@@ -297,6 +297,12 @@ header {
   }
 }
 
+@media (min-width: 930px) {
+  header {
+    height: 100vh;
+  }
+}
+
 nav {
   height: 3em;
   display: -webkit-box;

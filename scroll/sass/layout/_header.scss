@@ -18,4 +18,8 @@ header {
       hsla(0, 0%, 100%, 0.05) 60em
     );
   }
+
+  @include mq-large {
+    height: 100vh;
+  }
 }
