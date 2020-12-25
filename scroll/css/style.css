@@ -314,6 +314,12 @@ nav {
   padding-left: 4em;
 }
 
+@media (min-width: 930px) {
+  nav {
+    height: 10vh;
+  }
+}
+
 @media (min-width: 730px) {
   .hero {
     display: -ms-grid;
