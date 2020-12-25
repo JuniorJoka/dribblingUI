@@ -639,11 +639,23 @@ footer .copyright {
   }
 }
 
+@media (min-width: 930px) {
+  .subscribe {
+    height: 15em;
+  }
+}
+
 .subscribe .sub {
   color: #d9d9d9;
   line-height: 1.2;
   margin: 2em;
   font-size: 1.1em;
+}
+
+@media (min-width: 930px) {
+  .subscribe .sub {
+    width: 17em;
+  }
 }
 
 .subscribe .sub .ad {
@@ -673,6 +685,12 @@ footer .copyright {
   position: relative;
   padding: 1.5em;
   margin-left: 2em;
+}
+
+@media (min-width: 930px) {
+  .subscribe .enthus {
+    padding: 2em;
+  }
 }
 
 .subscribe .enthus::before {

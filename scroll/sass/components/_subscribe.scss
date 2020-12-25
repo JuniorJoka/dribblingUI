@@ -24,11 +24,19 @@
     );
   }
 
+  @include mq-large {
+    height: 15em;
+  }
+
   .sub {
     color: $primary-light;
     line-height: 1.2;
     margin: 2em;
     font-size: 1.1em;
+
+    @include mq-large {
+      width: 17em;
+    }
 
     .ad {
       background-color: $accent-blue;
@@ -53,6 +61,10 @@
     position: relative;
     padding: 1.5em;
     margin-left: 2em;
+
+    @include mq-large {
+      padding: 2em;
+    }
 
     &::before {
       content: "";
