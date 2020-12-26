@@ -2,6 +2,7 @@
 @import "base/typography";
 @import "helpers/variables";
 @import "helpers/animations";
+@import "helpers/adanim";
 @import "helpers/mixins";
 @import "layout/header";
 @import "layout/nav";
@@ -16,5 +17,3 @@
 @import "components/subscribe";
 @import "components/entice";
 @import "components/services";
-
-@import "components/adanim";
