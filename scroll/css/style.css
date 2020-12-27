@@ -285,6 +285,51 @@ table {
   }
 }
 
+.moveRight {
+  -webkit-animation: moveRight 3s;
+          animation: moveRight 3s;
+}
+
+.moveLeft {
+  -webkit-animation: moveLeft 3s;
+          animation: moveLeft 3s;
+}
+
+.moveUp {
+  -webkit-animation: moveUp 3s;
+          animation: moveUp 3s;
+}
+
+.moveDown {
+  -webkit-animation: moveUp 3s;
+          animation: moveUp 3s;
+}
+
+.elongate {
+  -webkit-animation: elongate 3s;
+          animation: elongate 3s;
+}
+
+.showUp {
+  -webkit-animation: showUp 3s;
+          animation: showUp 3s;
+}
+
+.showDown {
+  -webkit-animation: showDown 3s;
+          animation: showDown 3s;
+}
+
+.rotar {
+  -webkit-animation: rotar 3s;
+          animation: rotar 3s;
+}
+
+.showShow {
+  -webkit-animation: showShow 3s;
+          animation: showShow 3s;
+}
+
 header {
   background: #2f2f2f;
   background-image: repeating-linear-gradient(-40deg, transparent, transparent 10em, rgba(255, 255, 255, 0.05) 0, rgba(255, 255, 255, 0.05) 20em);
@@ -1060,50 +1105,5 @@ footer .copyright {
 .services div .connect {
   background: url("/assets/device.svg") no-repeat #fde154 50% 50%;
   background-size: 3em;
-}
-
-.moveRight {
-  -webkit-animation: moveRight 3s;
-          animation: moveRight 3s;
-}
-
-.moveLeft {
-  -webkit-animation: moveLeft 3s;
-          animation: moveLeft 3s;
-}
-
-.moveUp {
-  -webkit-animation: moveUp 3s;
-          animation: moveUp 3s;
-}
-
-.moveDown {
-  -webkit-animation: moveUp 3s;
-          animation: moveUp 3s;
-}
-
-.elongate {
-  -webkit-animation: elongate 3s;
-          animation: elongate 3s;
-}
-
-.showUp {
-  -webkit-animation: showUp 3s;
-          animation: showUp 3s;
-}
-
-.showDown {
-  -webkit-animation: showDown 3s;
-          animation: showDown 3s;
-}
-
-.rotar {
-  -webkit-animation: rotar 3s;
-          animation: rotar 3s;
-}
-
-.showShow {
-  -webkit-animation: showShow 3s;
-          animation: showShow 3s;
 }
 /*# sourceMappingURL=style.css.map */
