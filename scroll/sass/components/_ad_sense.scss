@@ -41,16 +41,7 @@
     }
 
     a {
-      background-color: $accent-blue;
-      padding: 0.5em;
-      border-radius: 2em;
-      font-weight: bold;
-      color: $primary-dark;
-      font-family: Georgia, "Times New Roman", Times, serif;
-      display: flex;
-      justify-content: center;
-      text-decoration: none;
-      font-size: 1em;
+      @extend %sub-btn;
       margin-top: 2em;
     }
   }
