@@ -21,17 +21,7 @@
   }
 
   a {
-    background-color: $accent-blue;
-    padding: 0.5em;
-    border-radius: 2em;
-    font-weight: bold;
-    color: $primary-dark;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    font-size: 1em;
+    @extend %sub-btn;
     margin-top: 1em;
     margin-left: -2em;
     width: 17em;
