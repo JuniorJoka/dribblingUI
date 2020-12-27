@@ -471,7 +471,7 @@ footer .copyright {
   }
 }
 
-.befooter a, .ad-sense p a {
+.befooter a, .ad-sense p a, .subscribe .sub a {
   background-color: #32e2d1;
   padding: 0.5em;
   border-radius: 2em;
@@ -875,20 +875,6 @@ footer .copyright {
 
 .subscribe .sub a {
   width: 17em;
-  background-color: #32e2d1;
-  padding: 0.5em;
-  border-radius: 2em;
-  font-weight: bold;
-  color: #2f2f2f;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-decoration: none;
-  font-size: 1em;
   margin-top: 1em;
 }
 
