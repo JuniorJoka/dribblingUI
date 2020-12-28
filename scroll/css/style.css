@@ -739,27 +739,31 @@ footer .copyright {
 .ad {
   position: absolute;
   background-repeat: no-repeat;
+  opacity: 0;
 }
 
 .ad1 {
+  background-image: url("/assets/ad1.svg");
+  -webkit-transform: translate3d(10em, 0em, 0);
+          transform: translate3d(10em, 0em, 0);
+  top: 2.5em;
+  bottom: em;
+  left: em;
   top: 2.5em;
   width: 90%;
   height: 50%;
-  background-image: url(/assets/ad1.svg);
-  -webkit-transform: translate3d(10em, 0, 0);
-          transform: translate3d(10em, 0, 0);
-  opacity: 0;
 }
 
 .ad2 {
+  background-image: url("/assets/ad2.svg");
+  -webkit-transform: translate3d(0em, 10em, 0);
+          transform: translate3d(0em, 10em, 0);
+  top: em;
   bottom: 5em;
   left: 12.5em;
-  height: 20%;
+  top: em;
   width: 20%;
-  background-image: url(/assets/ad2.svg);
-  -webkit-transform: translate3d(0, 10em, 0);
-          transform: translate3d(0, 10em, 0);
-  opacity: 0;
+  height: 20%;
 }
 
 @media (min-width: 930px) {
@@ -770,14 +774,15 @@ footer .copyright {
 }
 
 .ad3 {
-  left: 12.7em;
+  background-image: url("/assets/ad3.svg");
+  -webkit-transform: translate3d(0em, 10em, 0);
+          transform: translate3d(0em, 10em, 0);
+  top: em;
   bottom: 1em;
-  height: 20%;
+  left: 12.5em;
+  top: em;
   width: 20%;
-  background-image: url(/assets/ad3.svg);
-  -webkit-transform: translate3d(0, 10em, 0);
-          transform: translate3d(0, 10em, 0);
-  opacity: 0;
+  height: 20%;
 }
 
 @media (min-width: 930px) {
@@ -788,14 +793,15 @@ footer .copyright {
 }
 
 .ad4 {
+  background-image: url("/assets/ad4.svg");
+  -webkit-transform: translate3d(-10em, 0em, 0);
+          transform: translate3d(-10em, 0em, 0);
+  top: em;
   bottom: 1em;
   left: 3em;
+  top: em;
   width: 20%;
   height: 15%;
-  background-image: url(/assets/ad4.svg);
-  -webkit-transform: translate3d(-10em, 0, 0);
-          transform: translate3d(-10em, 0, 0);
-  opacity: 0;
 }
 
 @media (min-width: 930px) {
@@ -806,25 +812,27 @@ footer .copyright {
 }
 
 .ad5 {
-  left: 0.5em;
+  background-image: url("/assets/ad5.svg");
+  -webkit-transform: translate3d(0em, -10em, 0);
+          transform: translate3d(0em, -10em, 0);
+  top: em;
   bottom: 2em;
-  height: 50%;
+  left: 0.5em;
+  top: em;
   width: 20%;
-  background-image: url(/assets/ad5.svg);
-  -webkit-transform: translate3d(0, -10em, 0);
-          transform: translate3d(0, -10em, 0);
-  opacity: 0;
+  height: 50%;
 }
 
 .ad6 {
+  background-image: url("/assets/ad6.svg");
+  -webkit-transform: translate3d(-10em, 0em, 0);
+          transform: translate3d(-10em, 0em, 0);
+  top: em;
   bottom: 3.5em;
   left: 3em;
-  height: 15%;
+  top: em;
   width: 50%;
-  background-image: url(/assets/ad6.svg);
-  -webkit-transform: translate3d(-10em, 0, 0);
-          transform: translate3d(-10em, 0, 0);
-  opacity: 0;
+  height: 15%;
 }
 
 @media (min-width: 930px) {
