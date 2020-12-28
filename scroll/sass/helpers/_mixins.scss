@@ -9,3 +9,24 @@
     @content;
   }
 }
+
+@mixin admxin(
+  $background,
+  $width,
+  $height,
+  $x: 0,
+  $y: 0,
+  $top: null,
+  $bottom: null,
+  $left: null,
+  $right: null
+) {
+  background-image: url(#/assets/{$background});
+  transform: translate3d(#{$x}em, #{$y}em, 0);
+  top: #{$top}em;
+  bottom: #{$bottom}em;
+  left: #{$left}em;
+  top: #{$top}em;
+  width: $width;
+  height: $height;
+}
