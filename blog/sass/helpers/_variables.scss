@@ -1,0 +1,14 @@
+// primary-colors
+$main-light: hsl(224, 55, 24);
+$main-dark: hsl(224, 74, 15);
+$main-accent: hsl(180, 71%, 55%);
+$gen-accent: hsl(216, 72, 26);
+
+// web-colors
+$background-color: $main-dark;
+$section-background-color: $main-light;
+$fancy-font-color: $main-accent;
+
+//screen size
+$medium-screen: 730px;
+$large-screen: 1042px;
