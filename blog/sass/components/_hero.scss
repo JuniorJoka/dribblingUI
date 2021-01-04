@@ -1,0 +1,10 @@
+.hero {
+  background: linear-gradient(
+    45deg,
+    $background-color,
+    $section-background-color
+  );
+  padding: 1em;
+  border-radius: 0 1em 1em 0;
+  font-family: $sans;
+}
