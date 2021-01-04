@@ -148,4 +148,20 @@ body {
   margin-bottom: 1.5em;
   background-size: cover;
 }
+
+.hero-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 0.7em;
+  color: #3bdede;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1em;
+  border-radius: 5em 0 0 5em;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */

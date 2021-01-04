@@ -17,4 +17,16 @@
     // background-image: url("/assets/author.png");
     background-size: cover;
   }
+
+  &-tags {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.7em;
+    color: $fancy-font-color;
+    background-color: hsla(0, 100%, 100, 0.1);
+    padding: 1em;
+    border-radius: 5em 0 0 5em;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+  }
 }
