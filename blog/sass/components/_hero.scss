@@ -29,4 +29,31 @@
     letter-spacing: 0.1rem;
     font-weight: bold;
   }
+  &-title {
+    color: white;
+    font-size: 1.3em;
+    margin: 2em 0;
+    font-weight: bold;
+  }
+
+  &-date {
+    color: hsla(0, 100%, 100, 0.6);
+    margin: 1em 0;
+    font-size: 0.9em;
+  }
+
+  &-author {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+
+    &-image {
+      width: 3em;
+      height: 3em;
+      border-radius: 2em;
+      background-color: hsla(160, 100%, 75%, 0.5);
+      //   background-image: url("/assets/author2.png");
+      background-size: cover;
+    }
+  }
 }

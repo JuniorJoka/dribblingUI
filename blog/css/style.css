@@ -164,4 +164,35 @@ body {
   letter-spacing: 0.1rem;
   font-weight: bold;
 }
+
+.hero-title {
+  color: white;
+  font-size: 1.3em;
+  margin: 2em 0;
+  font-weight: bold;
+}
+
+.hero-date {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 1em 0;
+  font-size: 0.9em;
+}
+
+.hero-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.9em;
+}
+
+.hero-author-image {
+  width: 3em;
+  height: 3em;
+  border-radius: 2em;
+  background-color: rgba(128, 255, 213, 0.5);
+  background-size: cover;
+}
 /*# sourceMappingURL=style.css.map */
