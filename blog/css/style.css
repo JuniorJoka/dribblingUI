@@ -200,4 +200,30 @@ body {
   color: rgba(255, 255, 255, 0.6);
   margin-left: 1em;
 }
+
+.hero-comment {
+  margin-top: 1em;
+  color: #3bdede;
+}
+
+.hero-comment-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.hero-comment-keyword {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0.5em 0;
+}
 /*# sourceMappingURL=style.css.map */
