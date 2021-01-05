@@ -226,4 +226,9 @@ body {
           justify-content: flex-end;
   margin: 0.5em 0;
 }
+
+header {
+  background-color: #0a1943;
+  padding: 1em;
+}
 /*# sourceMappingURL=style.css.map */
