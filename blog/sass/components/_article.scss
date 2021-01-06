@@ -1,4 +1,18 @@
 article {
   background-color: $gen-accent;
   padding: 1em 0;
+
+  .content {
+    background-color: $background-color;
+    padding: 1em;
+    margin: 1em;
+    margin-top: 3em;
+    color: hsla(0, 100%, 100, 0.6);
+    padding: 1em;
+    font-family: $sans;
+    line-height: 1em;
+    border-radius: 1em;
+    line-height: 1.7;
+    margin-bottom: 5em;
+  }
 }
