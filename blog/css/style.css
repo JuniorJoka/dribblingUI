@@ -271,6 +271,18 @@ article .navigation {
   font-weight: bold;
 }
 
+article .navigation-prev {
+  cursor: pointer;
+  position: relative;
+  padding-left: 2em;
+}
+
+article .navigation-next {
+  cursor: pointer;
+  padding-right: 2em;
+  position: relative;
+}
+
 header {
   background-color: #0a1943;
   padding: 1em;

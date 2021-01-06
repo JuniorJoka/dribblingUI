@@ -35,5 +35,17 @@ article {
     color: $fancy-font-color;
     text-transform: uppercase;
     font-weight: bold;
+
+    &-prev {
+      cursor: pointer;
+      position: relative;
+      padding-left: 2em;
+    }
+
+    &-next {
+      cursor: pointer;
+      padding-right: 2em;
+      position: relative;
+    }
   }
 }
