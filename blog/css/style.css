@@ -258,6 +258,19 @@ article p {
   margin: 1em 0;
 }
 
+article .navigation {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #3bdede;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 header {
   background-color: #0a1943;
   padding: 1em;

@@ -27,4 +27,13 @@ article {
   p {
     margin: 1em 0;
   }
+
+  .navigation {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    color: $fancy-font-color;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 }
