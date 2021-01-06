@@ -227,6 +227,11 @@ body {
   margin: 0.5em 0;
 }
 
+article {
+  background-color: #133972;
+  padding: 1em 0;
+}
+
 header {
   background-color: #0a1943;
   padding: 1em;
