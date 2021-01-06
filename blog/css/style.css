@@ -246,6 +246,18 @@ article .content {
   margin-bottom: 5em;
 }
 
+article h2 {
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 1em 0;
+  line-height: normal;
+}
+
+article p {
+  margin: 1em 0;
+}
+
 header {
   background-color: #0a1943;
   padding: 1em;
