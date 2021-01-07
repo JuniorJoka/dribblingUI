@@ -283,6 +283,10 @@ article .navigation-next {
   position: relative;
 }
 
+.related {
+  background-color: #0a1943;
+}
+
 header {
   background-color: #0a1943;
   padding: 1em;
