@@ -293,6 +293,24 @@ article .navigation-next {
   padding: 1em;
 }
 
+.related h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  position: relative;
+  padding: 1em 0 3em 0;
+}
+
+.related h2::before {
+  content: "";
+  width: 3em;
+  height: 0.25em;
+  background-color: #3bdede;
+  position: absolute;
+  bottom: 0;
+}
+
 header {
   background-color: #0a1943;
   padding: 1em;
