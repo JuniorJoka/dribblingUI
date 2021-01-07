@@ -1,3 +1,9 @@
 .related {
   background-color: $background-color;
+
+  .content {
+    color: hsla(0, 100%, 100, 0.6);
+    font-family: $sans;
+    padding: 1em;
+  }
 }
