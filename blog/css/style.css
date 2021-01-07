@@ -311,6 +311,13 @@ article .navigation-next {
   bottom: 0;
 }
 
+.related .post {
+  background-color: #1c2d5f;
+  padding: 1em;
+  border-radius: 1em;
+  margin: 2em 0;
+}
+
 header {
   background-color: #0a1943;
   padding: 1em;
