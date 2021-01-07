@@ -318,6 +318,26 @@ article .navigation-next {
   margin: 2em 0;
 }
 
+.related .post-header {
+  margin-bottom: 1em;
+}
+
+.related .post-title {
+  color: white;
+  font-weight: bold;
+  padding: 0.3em 0;
+}
+
+.related .post-date {
+  color: #3bdede;
+  opacity: 0.9;
+}
+
+.related .post-info {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+}
+
 header {
   background-color: #0a1943;
   padding: 1em;
