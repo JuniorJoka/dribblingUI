@@ -362,6 +362,50 @@ article .navigation-next {
   line-height: 1.5;
 }
 
+.subscribe form {
+  margin: 3em 0;
+}
+
+.subscribe form input[type="text"] {
+  width: calc(100% - 2em);
+  background-color: #0a1943;
+  outline: none;
+  padding: 1em;
+  border: none;
+  margin: 0.5em 0;
+  border-radius: 0.25em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe form input[type="text"]::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe form input[type="text"]:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe form input[type="text"]::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe form input[type="text"]::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe form input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin: 0.5em 0;
+  background-color: #3bdede;
+  color: #0a1943;
+  border: none;
+  border-radius: 0.25em;
+  font-weight: bold;
+  padding: 1em;
+  cursor: pointer;
+}
+
 header {
   background-color: #0a1943;
   padding: 1em;
