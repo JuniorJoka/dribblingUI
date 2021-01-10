@@ -406,6 +406,12 @@ article .navigation-next {
   cursor: pointer;
 }
 
+.comment {
+  padding: 1em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 header {
   background-color: #0a1943;
   padding: 1em;
