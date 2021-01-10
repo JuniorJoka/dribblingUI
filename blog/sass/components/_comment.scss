@@ -2,4 +2,30 @@
   padding: 1em;
   font-family: $sans;
   color: hsla(0, 100%, 100%, 0.6);
+
+  .comments {
+    background-color: $background-color;
+    border-radius: 1em;
+    padding: 1em;
+
+    &-header {
+      h3 {
+        color: white;
+        font-weight: bold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        position: relative;
+        padding: 1em 0 2em;
+
+        &::before {
+          content: "";
+          width: 3em;
+          height: 0.25em;
+          background-color: $fancy-font-color;
+          position: absolute;
+          bottom: 0;
+        }
+      }
+    }
+  }
 }
