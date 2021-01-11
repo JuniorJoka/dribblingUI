@@ -47,3 +47,13 @@
     }
   }
 }
+
+.comments-comments {
+  .main-comment {
+    color: $fancy-font-color;
+    margin: 1em 0;
+    span {
+      color: white;
+    }
+  }
+}

@@ -462,6 +462,15 @@ article .navigation-next {
   margin: 0.5em 0;
 }
 
+.comments-comments .main-comment {
+  color: #3bdede;
+  margin: 1em 0;
+}
+
+.comments-comments .main-comment span {
+  color: white;
+}
+
 header {
   background-color: #0a1943;
   padding: 1em;
