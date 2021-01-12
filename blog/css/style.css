@@ -489,6 +489,19 @@ article .navigation-next {
   border-radius: 2em;
 }
 
+.comments-comments .commentary {
+  line-height: 1.5;
+  margin: 1em 0;
+}
+
+.comments-comments .reply-comment {
+  padding-left: 1em;
+}
+
+.comments-comments .reply-reply-comment {
+  padding-left: 2em;
+}
+
 header {
   background-color: #0a1943;
   padding: 1em;
