@@ -50,10 +50,12 @@
 
 .comments-comments {
   .main-comment {
-    color: $fancy-font-color;
-    margin: 1em 0;
-    span {
-      color: white;
+    .header-info {
+      color: $fancy-font-color;
+      margin: 1em 0;
+      span {
+        color: white;
+      }
     }
   }
 }
