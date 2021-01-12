@@ -471,6 +471,24 @@ article .navigation-next {
   color: white;
 }
 
+.comments-comments .re-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.comments-comments .re-container .reply {
+  background-color: #3bdede;
+  color: #0a1943;
+  display: inline-block;
+  padding: 1em;
+  font-weight: bold;
+  border-radius: 2em;
+}
+
 header {
   background-color: #0a1943;
   padding: 1em;
