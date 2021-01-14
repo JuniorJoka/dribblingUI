@@ -517,6 +517,35 @@ article .navigation-next {
   margin: 1em 0;
 }
 
+.new-comment form textarea {
+  background-color: #0a1943;
+  outline: none;
+  border: none;
+  resize: none;
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 0.25em;
+  width: calc(100% - 2em);
+  height: 20em;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.new-comment form textarea::-webkit-input-placeholder {
+  color: inherit;
+}
+
+.new-comment form textarea:-ms-input-placeholder {
+  color: inherit;
+}
+
+.new-comment form textarea::-ms-input-placeholder {
+  color: inherit;
+}
+
+.new-comment form textarea::placeholder {
+  color: inherit;
+}
+
 header {
   background-color: #0a1943;
   padding: 1em;

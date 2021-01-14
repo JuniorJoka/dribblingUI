@@ -100,4 +100,23 @@
       margin: 1em 0;
     }
   }
+
+  form {
+    textarea {
+      background-color: $background-color;
+      outline: none;
+      border: none;
+      resize: none;
+      color: hsla(0, 100%, 100, 0.6);
+      border-radius: 0.25em;
+      width: calc(100% - 2em);
+      height: 20em;
+      padding: 1em;
+      margin: 1em 0;
+
+      &::placeholder {
+        color: inherit;
+      }
+    }
+  }
 }
