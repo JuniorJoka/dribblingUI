@@ -118,5 +118,16 @@
         color: inherit;
       }
     }
+    input[type="submit"] {
+      width: 100%;
+      margin: 1em 0;
+      padding: 1em;
+      background-color: $fancy-font-color;
+      color: $background-color;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 4em;
+    }
   }
 }
